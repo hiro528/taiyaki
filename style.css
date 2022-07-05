@@ -1,0 +1,72 @@
+html {
+    font-size: 62.5%;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 1.8rem;
+}
+p {
+    font-size: 1.6rem;
+}
+dt,dd {
+    font-size: 1.6rem;
+}
+li {
+    font-size: 1.6rem;
+}
+.wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.items {
+
+}
+.item img {
+    width: 100%;
+}
+.items dl {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1.8;
+}
+.items dt {
+    width: 80%;
+    border-bottom: 1px solid rgb(150,150,150);
+    line-height: 1.8;
+}
+.items dd {
+    width: 20%;
+    margin: 0;
+    text-align: right;
+    border-bottom: 1px solid rgb(150,150,150);   
+}
+.make h2 {
+    text-align: center;
+}
+.make h2::before {
+    content: url(img/コックアイコン.png);
+    display: block;
+} 
+.make li {
+    margin-bottom: 20px;
+}
+.make .button {
+    display: block;
+    width: 60%;
+    max-width: 300px;
+    line-height: 3;
+    border: 1px solid rgb(150,150,150);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+
+
+
+}
